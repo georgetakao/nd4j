@@ -5,42 +5,40 @@ description: ""
 ---
 {% include JB/setup %}
 
-# Overview
+# 簡単なスタート方法について
 
-In order to use ND4J, you will need to have several tools installed in your machine:
+ND4Jを始めるためには、以下のプログラムをインストールする必要があります。
 
 1. [Java](https://github.com/globalcaos/nd4j/blob/gh-pages/getstarted.md#1-java)
 2. [Github](https://github.com/globalcaos/nd4j/blob/gh-pages/getstarted.md#2-github)
 3. [Maven](https://github.com/globalcaos/nd4j/blob/gh-pages/getstarted.md#3-maven)
 4. [IDE for Java](https://github.com/globalcaos/nd4j/blob/gh-pages/getstarted.md#4-ide-for-java)
 
-Installing these tools might take a few hours, so sit tight. This tutorial will guide you until you can run a few simple examples that illustrate how ND4J works.
-
 <iframe width="750" height="560" src="//www.youtube.com/embed/D0TrW9ht2Qo" frameborder="0" allowfullscreen></iframe>
+
+この手順に沿ってダウンロードすれば、どなたでも簡単にND4Jをスタートすることができます。
 
 # 1. Java
 
-### What it is
-[Java](http://en.wikipedia.org/wiki/Java_%28programming_language%29) is yor [programming language](http://en.wikipedia.org/wiki/Comparison_of_programming_languages) of choice.
+### Javaとは何か
+[Java](http://ja.wikipedia.org/wiki/Java)とは、プログラミング言語及びコンピュータープラットフォームのことを指します。
 
-### Why you need it
-Java will translate your code into machine code, allowing you to run it.
+### なぜ必要か
+Janaを活用することでプラットフォームに依存しないアプリケーションソフトウェアの開発と配備を行うことができます。
 
-### Is it already installed?
-To test which version of Java you have (and whether you have it at all), type the following into the command line:
+### Javaのバージョン確認方法
+コマンドラインに以下の文書を入力することで、既にインストールされているJavaのバージョンを確認することができます。
 
 		java -version
 
-ND4J requires Java 7, so if you have an older verion, you will need to install a newer one.
+ND4Jを始めるためには「Java7」が必要になるため、古いバージョンをお使いの場合には、再度インストールが必要になります。
 
-### Installation
-If you don't have Java 7 installed on your machine, download the [Java Development Kit (JDK) here](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html). The download will vary by operating system. For newer Macs, you'll want the file on the first line to mention Mac OS X (the number after *jdk-7u* increments with each update). It will look something like this:
-
-		Mac OS X x64 185.94 MB -  jdk-7u67-macosx-x71.dmg
+### インストール方法
+最新のJavaは[オラクルホームページ](https://java.com/ja/download/)を通じて、無料でダウンロードいただけます。ダウンロード方法はお使いの端末によって異なります。
 
 # 2. GitHub
 
-### What it is
+### GitHubとは
 [Github](http://en.wikipedia.org/wiki/GitHub) is a web-based [Revision Control System](http://en.wikipedia.org/wiki/Revision_control), _the [de facto host](http://opensource.com/life/12/11/code-hosting-comparison) for open source projects_ (click [here](http://en.wikipedia.org/wiki/Comparison_of_open-source_software_hosting_facilities) for a comparison between existing open-source software hosting facilities).
 
 ### Why you need it
