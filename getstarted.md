@@ -30,6 +30,7 @@ Java will translate your code into machine code, allowing you to run it.
 To test which version of Java you have (and whether you have it at all), type the following into the command line:
 
 		java -version
+
 ND4J requires Java 7, so if you have an older verion, you will need to install a newer one.
 
 ### Installation
