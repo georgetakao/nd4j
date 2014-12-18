@@ -39,9 +39,9 @@ ND4Jを始めるためには「Java7」が必要になるため、古いバー�
 # 2. GitHub
 
 ### GitHubとは
-[Github](http://en.wikipedia.org/wiki/GitHub) is a web-based [Revision Control System](http://en.wikipedia.org/wiki/Revision_control), _the [de facto host](http://opensource.com/life/12/11/code-hosting-comparison) for open source projects_ (click [here](http://en.wikipedia.org/wiki/Comparison_of_open-source_software_hosting_facilities) for a comparison between existing open-source software hosting facilities).
+[Github](http://en.wikipedia.org/wiki/GitHub) は [Revision Control System](http://ja.wikipedia.org/wiki/Revision_Control_System)に基づいた、ソフトウェア開発プロジェクトのための共有ウェブサービスであり, [open source](http://ja.wikipedia.org/wiki/オープンソース) projects向けの無料アカウントを提供している。
 
-### Why you need it
+### なぜ必要か
 If you just want to use the ND4J libraries, you do not need GitHub, Maven will take care of the .jar files. However, if you are planning to contribute to the [ND4J](https://github.com/SkymindIO/nd4j) or the [DeepLearning4J](https://github.com/SkymindIO/deeplearning4j) project, you are very welcome to report bugs. By the way, thanks for all the people already doing so.
 
 ### Is it already installed?
