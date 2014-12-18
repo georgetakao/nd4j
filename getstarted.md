@@ -21,34 +21,34 @@ ND4Jを始めるためには、以下のプログラムをインストールす�
 # 1. Java
 
 ### Javaとは何か
-[Java](http://ja.wikipedia.org/wiki/Java)とは、プログラミング言語及びコンピュータープラットフォームのことを指します。
+ [Java](http://ja.wikipedia.org/wiki/Java)とは、プログラミング言語及びコンピュータープラットフォームのことを指します。
 
 ### なぜ必要か
-Janaを活用することでプラットフォームに依存しないアプリケーションソフトウェアの開発と配備を行うことができます。
+ Janaを活用することでプラットフォームに依存しないアプリケーションソフトウェアの開発と配備を行うことができます。
 
 ### Javaのバージョン確認方法
-コマンドラインに以下の文書を入力することで、既にインストールされているJavaのバージョンを確認することができます。
+ コマンドラインに以下の文書を入力することで、既にインストールされているJavaのバージョンを確認することができます。
 
 		java -version
 
-ND4Jを始めるためには「Java7」が必要になるため、古いバージョンをお使いの場合には、再度インストールが必要になります。
+ ND4Jを始めるためには「Java7」が必要になるため、古いバージョンをお使いの場合には、再度インストールが必要になります。
 
 ### インストール方法
-最新のJavaは[オラクルホームページ](https://java.com/ja/download/)を通じて、無料でダウンロードいただけます。ダウンロード方法はお使いの端末によって異なります。
+ 最新のJavaは[オラクルホームページ](https://java.com/ja/download/)を通じて、無料でダウンロードいただけます。ダウンロード方法はお使いの端末によって異なります。
 
 # 2. GitHub
 
 ### GitHubとは
-[Github](http://en.wikipedia.org/wiki/GitHub) は [Revision Control System](http://ja.wikipedia.org/wiki/Revision_Control_System)に基づいた、ソフトウェア開発プロジェクトのための共有ウェブサービスであり, [open source](http://ja.wikipedia.org/wiki/オープンソース) projects向けの無料アカウントを提供しています。
+ [Github](http://en.wikipedia.org/wiki/GitHub) は [Revision Control System](http://ja.wikipedia.org/wiki/Revision_Control_System)に基づいた、ソフトウェア開発プロジェクトのための共有ウェブサービスであり, [open source](http://ja.wikipedia.org/wiki/オープンソース) projects向けの無料アカウントを提供しています。
 
 ### なぜ必要か
-GitHubをインストールしなくても、Mavenがあれば[JAR](http://ja.wikipedia.org/wiki/JAR_%28%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%83%95%E3%82%A9%E3%83%BC%E3%83%9E%E3%83%83%E3%83%88%29)をコントロールすることはできます。しかし、プロジェクトの状況やバグの報告をチームメンバー間で共有する際には、GitHubが役立ちます。
+ GitHubをインストールしなくても、Mavenがあれば[JAR](http://ja.wikipedia.org/wiki/JAR_%28%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%83%95%E3%82%A9%E3%83%BC%E3%83%9E%E3%83%83%E3%83%88%29)をコントロールすることはできます。しかし、プロジェクトの状況やバグの報告をチームメンバー間で共有する際には、GitHubが役立ちます。
 
 ### イントール状況の確認
-インストールプログラムにてご確認いただけます。
+ インストールプログラムにて、ご確認いただけます。
 
 ### インストール方法
-以下のURLを通じて無料でダウンロードいただけます。
+ 以下のURLを通じて無料でダウンロードいただけます。
 [Macはこちら](https://mac.github.com/), [Windowsはこちら](https://windows.github.com/)
 ND4Jのファイルを複製するためには以下の文章をterminal (Mac) もしくは Git Shell (Windows)へ入力してください。
 
@@ -57,10 +57,10 @@ ND4Jのファイルを複製するためには以下の文章をterminal (Mac) �
 # 3. Maven
 
 ### Mavenとは
-MavenとはJava用プロジェクト管理ツールとして活用される、[オープンソースソフトウェア](http://ja.wikipedia.org/wiki/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2)である。([Mavenホームページ](http://maven.apache.org/what-is-maven.html)), Mavenをインストールすることで、最新版のND4Jのば[JAR](http://ja.wikipedia.org/wiki/JAR_%28%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%83%95%E3%82%A9%E3%83%BC%E3%83%9E%E3%83%83%E3%83%88%29)を自動的にアップロードし続けることができます。
+ MavenとはJava用プロジェクト管理ツールとして活用される、[オープンソースソフトウェア](http://ja.wikipedia.org/wiki/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2)である。([Mavenホームページ](http://maven.apache.org/what-is-maven.html)), Mavenをインストールすることで、最新版のND4Jのば[JAR](http://ja.wikipedia.org/wiki/JAR_%28%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%83%95%E3%82%A9%E3%83%BC%E3%83%9E%E3%83%83%E3%83%88%29)を自動的にアップロードし続けることができます。
 
 ### なぜ必要か
-Mavenを活用することで、より簡単にND4JとDeeplearning4j projectsをインストールすることができます。 Moreover, it integrates with an Integrated Development Environment ([IDE](https://github.com/globalcaos/nd4j/blob/gh-pages/getstarted.md#4-ide-for-java)), which you will install later (see below). If you really know what you are doing, and still do not align with Maven's paradigm, you can alternatively bypass it visiting our [downloads](http://nd4j.org/downloads.html) page.
+ Mavenを活用することで、より簡単にND4JとDeeplearning4j projectsをインストールすることができます。	([IDE](https://github.com/globalcaos/nd4j/blob/gh-pages/getstarted.md#4-ide-for-java)) なお、 [downloads](http://nd4j.org/downloads.html) page.
 
 ### Is it already installed?
 To see if Maven is installed in your machine, enter the following into the command line:
