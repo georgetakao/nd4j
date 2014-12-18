@@ -39,17 +39,18 @@ ND4Jを始めるためには「Java7」が必要になるため、古いバー�
 # 2. GitHub
 
 ### GitHubとは
-[Github](http://en.wikipedia.org/wiki/GitHub) は [Revision Control System](http://ja.wikipedia.org/wiki/Revision_Control_System)に基づいた、ソフトウェア開発プロジェクトのための共有ウェブサービスであり, [open source](http://ja.wikipedia.org/wiki/オープンソース) projects向けの無料アカウントを提供している。
+[Github](http://en.wikipedia.org/wiki/GitHub) は [Revision Control System](http://ja.wikipedia.org/wiki/Revision_Control_System)に基づいた、ソフトウェア開発プロジェクトのための共有ウェブサービスであり, [open source](http://ja.wikipedia.org/wiki/オープンソース) projects向けの無料アカウントを提供しています。
 
 ### なぜ必要か
-If you just want to use the ND4J libraries, you do not need GitHub, Maven will take care of the .jar files. However, if you are planning to contribute to the [ND4J](https://github.com/SkymindIO/nd4j) or the [DeepLearning4J](https://github.com/SkymindIO/deeplearning4j) project, you are very welcome to report bugs. By the way, thanks for all the people already doing so.
+GitHubをインストールしなくても、Mavenがあれば[JAR](http://ja.wikipedia.org/wiki/JAR_%28%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%83%95%E3%82%A9%E3%83%BC%E3%83%9E%E3%83%83%E3%83%88%29)をコントロールすることはできます。しかし、プロジェクトの状況やバグの報告をチームメンバー間で共有する際には、GitHubが役立ちます。
 
-### Is it already installed?
-Just check your installed programs.
+### イントール状況の確認
+インストールプログラムにてご確認いただけます。
 
-### Installation
-Download GitHub for [Mac](https://mac.github.com/), [Windows](https://windows.github.com/), etc.
-To clone the ND4J files, enter this command into your terminal (Mac) or Git Shell (Windows):
+### インストール方法
+以下のURLを通じて無料でダウンロードいただけます。
+[Macの方はこちら](https://mac.github.com/), [Windowsの方はこちら](https://windows.github.com/)
+ND4Jのファイルを複製するためには your terminal (Mac) or Git Shell (Windows):
 
       git clone https://github.com/SkymindIO/nd4j
 
