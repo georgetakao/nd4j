@@ -60,7 +60,7 @@ ND4Jのファイルを複製するためには以下の文章をterminal (Mac) �
  MavenとはJava用プロジェクト管理ツールとして活用される、[オープンソースソフトウェア](http://ja.wikipedia.org/wiki/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2)である。([Mavenホームページ](http://maven.apache.org/what-is-maven.html)), Mavenをインストールすることで、最新版のND4Jのば[JAR](http://ja.wikipedia.org/wiki/JAR_%28%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%83%95%E3%82%A9%E3%83%BC%E3%83%9E%E3%83%83%E3%83%88%29)を自動的にアップロードし続けることができます。
 
 ### なぜ必要か
- Mavenを活用することで、より簡単にND4JとDeeplearning4j projectsをインストールすることができます。なお、最終的にダウンロードする[IDE](http://ja.wikipedia.org/wiki/%E7%B5%B1%E5%90%88%E9%96%8B%E7%99%BA%E7%92%B0%E5%A2%83)を操作するうえでも、Mavenは役立ちます。([IDE](https://github.com/globalcaos/nd4j/blob/gh-pages/getstarted.md#4-ide-for-java))また、もしMavenの内容をご理解いただいているは、以下の[downloads](http://nd4j.org/downloads.html) ページにアクセスいただくことで、この過程をスキップすることができます。
+ Mavenを活用することで、より簡単にND4JとDeeplearning4j projectsをインストールすることができます。なお、最終的にダウンロードする[IDE](http://ja.wikipedia.org/wiki/%E7%B5%B1%E5%90%88%E9%96%8B%E7%99%BA%E7%92%B0%E5%A2%83)を操作するうえでも、Mavenは役立ちます。([IDE](https://github.com/globalcaos/nd4j/blob/gh-pages/getstarted.md#4-ide-for-java))また、もしMavenの内容をご理解いただいているは、[当社ホームページ](http://nd4j.org/downloads.html) ページにアクセスいただくことで、この過程をスキップすることができます。
 
 ### イントール状況の確認
 コマンドラインに、以下のコードをご入力ください。
@@ -68,10 +68,12 @@ ND4Jのファイルを複製するためには以下の文章をterminal (Mac) �
 		mvn --version
 
 ### インストール方法
-以下のURLを通じて、無料でダウンロードいただけます
-[here](https://maven.apache.org/download.cgi). 
+[Mavenホームページ](https://maven.apache.org/download.cgi)を通じて、無料でダウンロードいただけます
+
 
 お持ちのパソコンのオペレーティングシステムに適応する、最新版のMavenを含む圧縮ファイルをダウンロードしてください。
+以下の文章はオペレーティングシステムの例になります。
+
 *"Unix-based Operating Systems (Linux, Solaris and Mac OS X)."* 
 
 If you want to develop for ND4J, just *git clone* the software (explained above) and run this Maven command within the ND4J directory:
@@ -81,16 +83,16 @@ If you want to develop for ND4J, just *git clone* the software (explained above)
 
 # 4. IDE for Java
 
-### What it is
+### IDEとは
 An Integrated Development Environment ([IDE](http://encyclopedia.thefreedictionary.com/integrated+development+environment)) will allow you to edit the source code, debug it and build it with a few clicks. The ones suggested here will use your installed version of Java, will talk with GitHub and Maven, which will take care of the dependencies for you. Visit our [dependencies](http://nd4j.org/dependencies.html) page to know how to 'easily' change the dependencies later on.
 
-### Why you need it
+### なぜIDEが必要か
 You want to set up a hassle-free development environment so that you only worry about your code.
 
-### Is it already installed?
+### イントール状況の確認
 Just check your installed programs.
 
-### Installation
+### インストール方法
 We recommend installing [IntelliJ](https://www.jetbrains.com/idea/download/). You will be perfectly fine with the free community edition.
 
 For picky ones, these are some equivalent IDEs: [Eclipse](http://books.sonatype.com/m2eclipse-book/reference/creating-sect-importing-projects.html) or [Netbeans](http://wiki.netbeans.org/MavenBestPractices).
