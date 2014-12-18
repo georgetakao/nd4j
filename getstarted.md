@@ -49,18 +49,18 @@ GitHubをインストールしなくても、Mavenがあれば[JAR](http://ja.wi
 
 ### インストール方法
 以下のURLを通じて無料でダウンロードいただけます。
-[Macの方はこちら](https://mac.github.com/), [Windowsの方はこちら](https://windows.github.com/)
-ND4Jのファイルを複製するためには your terminal (Mac) or Git Shell (Windows):
+[Macはこちら](https://mac.github.com/), [Windowsはこちら](https://windows.github.com/)
+ND4Jのファイルを複製するためには以下の文章をterminal (Mac) もしくは Git Shell (Windows)へ入力してください。
 
       git clone https://github.com/SkymindIO/nd4j
 
 # 3. Maven
 
-### What it is
-Maven is an automated build tool for Java projects (among other [things](http://maven.apache.org/what-is-maven.html)), that basically knows where the latest version of the libraries (ND4J .jar files) are, and downloads them automatically into your computer, ready to reference.
+### Mavenとは
+MavenとはJava用プロジェクト管理ツールとして活用される、[オープンソースソフトウェア](http://ja.wikipedia.org/wiki/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2)である。([Mavenホームページ](http://maven.apache.org/what-is-maven.html)), Mavenをインストールすることで、最新版のND4Jのば[JAR](http://ja.wikipedia.org/wiki/JAR_%28%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%83%95%E3%82%A9%E3%83%BC%E3%83%9E%E3%83%83%E3%83%88%29)を自動的にアップロードし続けることができます。
 
-### Why you need it
-Maven will allow you to install both ND4J and Deeplearning4j projects with a single command. Moreover, it integrates with an Integrated Development Environment ([IDE](https://github.com/globalcaos/nd4j/blob/gh-pages/getstarted.md#4-ide-for-java)), which you will install later (see below). If you really know what you are doing, and still do not align with Maven's paradigm, you can alternatively bypass it visiting our [downloads](http://nd4j.org/downloads.html) page.
+### なぜ必要か
+MavenをインストールすることでND4JとDeeplearning4j projects with a single command. Moreover, it integrates with an Integrated Development Environment ([IDE](https://github.com/globalcaos/nd4j/blob/gh-pages/getstarted.md#4-ide-for-java)), which you will install later (see below). If you really know what you are doing, and still do not align with Maven's paradigm, you can alternatively bypass it visiting our [downloads](http://nd4j.org/downloads.html) page.
 
 ### Is it already installed?
 To see if Maven is installed in your machine, enter the following into the command line:
