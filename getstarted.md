@@ -110,15 +110,15 @@ IDSを活用することで、コードを入力するだけで簡単にシス�
 
 # Next Steps
 
- これで[当社ホームページ](../elementwise.html)にあるプロジェクトを実行する準備が整いました。ダウンロードいただいたIDE上で、ND4Jプロジェクトをロードしてください。そのうちのいずれか一つをクリックし、(Run)ボタンを押すことで実行できます。すべてが正しくダウンロードされていた場合、画面に数字が表示され、アウトプットを確認することができます。
+ これで[当社ホームページ](../elementwise.html)にあるプロジェクトを実行する準備が整いました。ダウンロードいただいたIDE上で、いずれか一つのプロジェクトをクリックし、(Run)ボタンを押すことで実行できます。すべてが正しくダウンロードされていた場合、画面に数字が表示され、アウトプットを確認することができます。
 
-Once you are comfortable with the examples, you might want to change the dependencies defined in the POM files. Learn how to change the [dependencies here](http://nd4j.org/dependencies.html).
+操作環境にご満足頂いた場合は、POMファイルのdependenciyを変更することも可能です。dependencyの変更方法は [こちら](http://nd4j.org/dependencies.html).
 
-For further questions or feedback please contact us through our [Google Groups Forum](https://groups.google.com/forum/#!forum/nd4j).
+質問やフィードバックに関しては、 [Google Groups Forum](https://groups.google.com/forum/#!forum/nd4j)までお願いいたします。
 
-Useful links:
+その他リンク:
 
-* ND4J [project](http://nd4j.org/) and [Github repository](https://github.com/SkymindIO/nd4j).
-* DeepLearning4J [project](http://deeplearning4j.org/) and [Github repository](https://github.com/SkymindIO/deeplearning4j).
+*  [ND4Jとは](http://nd4j.org/) 。ND4Jに関するGitHubのファイルは [こちら](https://github.com/SkymindIO/nd4j)
+*  [DeepLearning4Jとは](http://deeplearning4j.org/)。DeepLearning4Jに関するGitHubのファイルは [こちら](https://github.com/SkymindIO/deeplearning4j).
 
 
