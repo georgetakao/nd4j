@@ -5,6 +5,8 @@ description: ""
 ---
 {% include JB/setup %}
 
+<iframe width="750" height="560" src="//www.youtube.com/embed/aWQsQQoTm9Y" frameborder="0" allowfullscreen></iframe>
+
 ND4Jを始めるためには、以下のプログラムをインストールする必要があります。
 
 1. [Java](#1-java)を活用することで、新たなプロジェクトを編集することができます。[ダウンロード](https://java.com/ja/download/)
@@ -71,6 +73,16 @@ ND4Jのファイルを複製するためには以下の文章をterminal (Mac) �
 ### インストール方法
 [Mavenホームページ](https://maven.apache.org/download.cgi)を通じて、無料でダウンロードいただけます
 
+![Alt text](../img/maven_downloads.png) 
+
+ページの下部にある、お使いのOperating Systemごとの説明に沿って、インストールを進めてください。
+ “Unix-based Operating Systems (Linux, Solaris and Mac OS X).”はこのような形で表示されております。
+ 
+![Alt text](../img/maven_OS_instructions.png) 
+
+IDEを使って新しいプロジェクトを作ることができます。
+
+![Alt text](../img/new_maven_project.png) 
 
 お持ちのパソコンのオペレーティングシステムに適応する、最新版のMavenを含む圧縮ファイルをダウンロードしてください。
 以下の文章はオペレーティングシステムの例になります。
