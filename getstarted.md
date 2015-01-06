@@ -80,12 +80,14 @@ ND4Jのファイルを複製するためには以下の文章をterminal (Mac) �
  
 ![Alt text](../img/maven_OS_instructions.png) 
 
-IDEを使って新しいプロジェクトを作ることができます。
+ここまでの作業を完了すると、IDEを使って新しいプロジェクトを作ることができます。
 
 ![Alt text](../img/new_maven_project.png) 
 
-お持ちのパソコンのオペレーティングシステムに適応する、最新版のMavenを含む圧縮ファイルをダウンロードしてください。
-以下の文章はオペレーティングシステムの例になります。
+IntelliJのWindowを通じて、下に表示されている画面が表示されます。まずはじめに名前を入力します。
+
+![Alt text](../img/maven2.png) 
+
 
 *"Unix-based Operating Systems (Linux, Solaris and Mac OS X)."* 
 
