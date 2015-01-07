@@ -10,7 +10,7 @@ description: ""
 ND4Jを始めるためには、以下のプログラムをインストールする必要があります。
 
 1. [Java](#1-java)を活用することで、新たなプロジェクトを編集することができます。[ダウンロード](https://java.com/ja/download/)
-2. [Integrated Development Environment](#4-ide-for-java)は、上記のプログラムを実行するためのシステム環境になります。[ダウンロード](https://www.jetbrains.com/idea/download/)
+2. [Integrated Development Environment](#ide-for-java)は、上記のプログラムを実行するためのシステム環境になります。[ダウンロード](https://www.jetbrains.com/idea/download/)
 3. [Maven](#3-maven)を活用することで、最新版のND4Jの[JAR](http://ja.wikipedia.org/wiki/JAR_%28%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%83%95%E3%82%A9%E3%83%BC%E3%83%9E%E3%83%83%E3%83%88%29)を自動的にアップロードし続けることができます。[ダウンロード](https://maven.apache.org/download.cgi)
 4. [Github](#2-github)を活用することで、ND4Jに関するデータを一元管理することができます。[Macはこちら](https://mac.github.com/), [Windowsはこちら](https://windows.github.com/)
 
@@ -19,7 +19,7 @@ ND4Jを始めるためには、以下のプログラムをインストールす�
 
 この手順に沿ってダウンロードすれば、どなたでも簡単にND4Jをスタートすることができます。
 
-# <a id="1-java">1. Java</a>
+# <a id="java">Java</a>
 
 ### Javaとは何か
  [Java](http://ja.wikipedia.org/wiki/Java)とは、プログラミング言語及びコンピュータープラットフォームのことを指します。
@@ -37,7 +37,7 @@ ND4Jを始めるためには、以下のプログラムをインストールす�
 ### インストール方法
  最新のJavaは[オラクルホームページ](https://java.com/ja/download/)を通じて、無料でダウンロードいただけます。ダウンロード方法はお使いの端末によって異なります。
 
-# <a id="2-Integrated Development Environment">2. Integrated Development Environment</a>
+# <a id="ide-for-java">Integrated Development Environment</a>
 
 ### Integrated Development Environmentとは
 
@@ -65,7 +65,7 @@ IDSを活用することで、コードを入力するだけで簡単にシス�
 
 
 
-# <a id="3-maven">3. Maven</a>
+# <a id="maven">Maven</a>
 
 ### Mavenとは
  MavenとはJava用プロジェクト管理ツールです。([Mavenホームページ](http://maven.apache.org/what-is-maven.html)) Mavenをインストールすることで、最新版のND4Jの[JAR](http://ja.wikipedia.org/wiki/JAR_%28%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%83%95%E3%82%A9%E3%83%BC%E3%83%9E%E3%83%83%E3%83%88%29)を自動的にアップロードし続けることができます。
@@ -114,7 +114,7 @@ IntelliJのWindowを通じて、下に表示されている画面が表示され
  もし新たなアイデアが必要な場合には、[intro](http://nd4j.org/introduction.html)をご覧ください。
 
 
-# <a id="4-github">4. GitHub</a>
+# <a id="github">GitHub</a>
 
 ### GitHubとは
  [Github](http://en.wikipedia.org/wiki/GitHub) は [Revision Control System](http://ja.wikipedia.org/wiki/Revision_Control_System)に基づいた、ソフトウェア開発プロジェクトのための共有ウェブサービスであり, [open source](http://ja.wikipedia.org/wiki/オープンソース) projects向けの無料アカウントを提供しています。
