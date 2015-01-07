@@ -89,11 +89,20 @@ IntelliJのWindowを通じて、下に表示されている画面が表示され
 ![Alt text](../img/maven2.png) 
 
  "Next"を押していただくと、次のウィンドウが表示されますので、"ND4J"と名前を入力してください。
- これでIntelliJのpom.xml fileにアクセスできるようになります。表示内容は以下のようになります。
+ これでIntelliJのpom.xml fileにアクセスでき、以下のよう表示されます。
  
  ![Alt text](../img/nd4j_pom_before.png) 
  
  
+ 次に<dependencies>セクションにdepemdencyを加えていく必要があります。これはCPUsやGPUsによって異なりますので、それぞれに適応する形で"nd4j-api"と a linear-algebra backend like "nd4j-jblas" か"nd4j-jcublas"を選択してください。これらはすべて <a href="http://search.maven.org/#search%7Cga%7C1%7Cnd4j-jblas">こちら</a>から取得できます。 "latest version" を選択し、コピーを行ってください。
+ 
+ ![Alt text](../img/nd4j_maven.png)
+ 
+ コピーした内容を<dependencies>セクションにペーストすると、以下の表示内容になります。
+ 
+ ![Alt text](../img/nd4j_pom_after.png) 
+ 
+ これで設定は完了になります。
 
 
 
@@ -134,7 +143,7 @@ IDSを活用することで、コードを入力するだけで簡単にシス�
 
  これで[当社ホームページ](../elementwise.html)にあるプロジェクトを実行する準備が整いました。ダウンロードいただいたIDE上で、いずれか一つのプロジェクトをクリックし、(Run)ボタンを押すことで実行できます。すべてが正しくダウンロードされていた場合、画面に数字が表示され、アウトプットを確認することができます。
 
-操作環境にご満足頂いた場合は、POMファイルのdependenciyを変更することも可能です。dependencyの変更方法は [こちら](http://nd4j.org/dependencies.html).
+操作環境にご満足頂いた場合は、POMファイルのdependencyを変更することも可能です。dependencyの変更方法は [こちら](http://nd4j.org/dependencies.html).
 
 質問やフィードバックに関しては、 [Google Groups Forum](https://groups.google.com/forum/#!forum/nd4j)までお願いいたします。
 
