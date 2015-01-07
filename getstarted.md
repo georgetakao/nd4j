@@ -11,7 +11,7 @@ ND4Jを始めるためには、以下のプログラムをインストールす�
 
 1. [Java](#java)を活用することで、新たなプロジェクトを編集することができます。[ダウンロード](https://java.com/ja/download/)
 2. [Integrated Development Environment](#ide-for-java)は、上記のプログラムを実行するためのシステム環境になります。[ダウンロード](https://www.jetbrains.com/idea/download/)
-3. [Maven](#maven)を活用することで、最新版のND4Jの[JAR](http://ja.wikipedia.org/wiki/JAR_%28%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%83%95%E3%82%A9%E3%83%BC%E3%83%9E%E3%83%83%E3%83%88%29)を自動的にアップロードし続けることができます。[ダウンロード](https://maven.apache.org/download.cgi)
+3. [Maven](#Maven)を活用することで、最新版のND4Jの[JAR](http://ja.wikipedia.org/wiki/JAR_%28%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%83%95%E3%82%A9%E3%83%BC%E3%83%9E%E3%83%83%E3%83%88%29)を自動的にアップロードし続けることができます。[ダウンロード](https://maven.apache.org/download.cgi)
 4. [Github](#github)を活用することで、ND4Jに関するデータを一元管理することができます。[Macはこちら](https://mac.github.com/), [Windowsはこちら](https://windows.github.com/)
 
 
