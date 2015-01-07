@@ -10,9 +10,9 @@ description: ""
 ND4Jを始めるためには、以下のプログラムをインストールする必要があります。
 
 1. [Java](#1-java)を活用することで、新たなプロジェクトを編集することができます。[ダウンロード](https://java.com/ja/download/)
-2. [Github](#2-github)を活用することで、ND4Jに関するデータを一元管理することができます。[Macはこちら](https://mac.github.com/), [Windowsはこちら](https://windows.github.com/)
+2. [Integrated Development Environment](#4-ide-for-java)は、上記のプログラムを実行するためのシステム環境になります。[ダウンロード](https://www.jetbrains.com/idea/download/)
 3. [Maven](#3-maven)を活用することで、最新版のND4Jの[JAR](http://ja.wikipedia.org/wiki/JAR_%28%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%83%95%E3%82%A9%E3%83%BC%E3%83%9E%E3%83%83%E3%83%88%29)を自動的にアップロードし続けることができます。[ダウンロード](https://maven.apache.org/download.cgi)
-4. [IDE for Java](#4-ide-for-java)は、上記のプログラムを実行するためのシステム環境になります。[ダウンロード](https://www.jetbrains.com/idea/download/)
+4. [Github](#2-github)を活用することで、ND4Jに関するデータを一元管理することができます。[Macはこちら](https://mac.github.com/), [Windowsはこちら](https://windows.github.com/)
 
 
 <iframe width="750" height="560" src="//www.youtube.com/embed/D0TrW9ht2Qo" frameborder="0" allowfullscreen></iframe>
@@ -37,25 +37,33 @@ ND4Jを始めるためには、以下のプログラムをインストールす�
 ### インストール方法
  最新のJavaは[オラクルホームページ](https://java.com/ja/download/)を通じて、無料でダウンロードいただけます。ダウンロード方法はお使いの端末によって異なります。
 
-# <a id="2-github">2. GitHub</a>
+# <a id="2-Integrated Development Environment">2. Integrated Development Environment</a>
 
-### GitHubとは
- [Github](http://en.wikipedia.org/wiki/GitHub) は [Revision Control System](http://ja.wikipedia.org/wiki/Revision_Control_System)に基づいた、ソフトウェア開発プロジェクトのための共有ウェブサービスであり, [open source](http://ja.wikipedia.org/wiki/オープンソース) projects向けの無料アカウントを提供しています。
+### Integrated Development Environmentとは
 
-### なぜ必要か
- GitHubはこのシステムを使う上で必ずしも必要なものではありません。しかし、ND4Jファイルのダウンロードやプロジェクトの状況、バグの報告をチームメンバー間で共有する際には、GitHubが役立ちます。
+Integrated Development Environment[[IDE]](http://encyclopedia.thefreedictionary.com/integrated+development+environment)とは、ソフトウェアの開発において用いられるエディタ、コンパイラ、リンカ、デバッガ、その他の支援ツールなどを統合・統一化した開発環境のことを指します。IDEには、ソフトウェア開発に必要な最低限のツールがすべて含まれているため、これを導入することで、インストールしたMaveとGitHubの操作を統一して行うことができます。 
+### なぜIDEが必要か
+
+IDSを活用することで、コードを入力するだけで簡単にシステムをセットアップができるようになります。IDEは一般的にMavenとセットで使われるため、Mavenのダウンロードをおすすめしております。
 
 ### イントール状況の確認
- インストールプログラムにて、ご確認いただけます。
+
+インストールプログラムをご確認ください。
 
 ### インストール方法
- 以下のURLを通じて無料でダウンロードいただけます。
- 
-[Macはこちら](https://mac.github.com/), [Windowsはこちら](https://windows.github.com/)
 
-ND4Jのファイルを複製するためには以下の文章をterminal (Mac) もしくは Git Shell (Windows)へ入力してください。
+[intellij](https://www.jetbrains.com/idea/download/)のfree community editionをお勧めいたします。
 
-      git clone https://github.com/SkymindIO/nd4j
+以下のIDEも同様にご活用いただけます。
+
+[Eclipse](http://books.sonatype.com/m2eclipse-book/reference/creating-sect-importing-projects.html) or [Netbeans](http://wiki.netbeans.org/MavenBestPractices).
+
+インストール後、以下のサイトからND4Jプロジェクトをダウンロードいただけます。
+
+[Intellijの場合](http://stackoverflow.com/questions/1051640/correct-way-to-add-lib-jar-to-an-intellij-idea-project)、
+[Eclipseの場合](http://stackoverflow.com/questions/3280353/how-to-import-a-jar-in-eclipse) 、 [Netbeansの場合](http://gpraveenkumar.wordpress.com/2009/06/17/abc-to-import-a-jar-file-in-netbeans-6-5/)
+
+
 
 # <a id="3-maven">3. Maven</a>
 
@@ -102,43 +110,30 @@ IntelliJのWindowを通じて、下に表示されている画面が表示され
  
  ![Alt text](../img/nd4j_pom_after.png) 
  
- これで設定は完了になります。
+ これで設定は完了になります。これ以降はIntelliJに新たなファイルを作ることも、 ND4Jの APIを利用することも可能になります。
+ もし新たなアイデアが必要な場合には、[intro](http://nd4j.org/introduction.html)をご覧ください。
 
 
+# <a id="4-github">4. GitHub</a>
 
-*"Unix-based Operating Systems (Linux, Solaris and Mac OS X)."* 
+### GitHubとは
+ [Github](http://en.wikipedia.org/wiki/GitHub) は [Revision Control System](http://ja.wikipedia.org/wiki/Revision_Control_System)に基づいた、ソフトウェア開発プロジェクトのための共有ウェブサービスであり, [open source](http://ja.wikipedia.org/wiki/オープンソース) projects向けの無料アカウントを提供しています。
 
-もしND4Jを修正したい場合は、 ソフトウェアを*git clone*してください。ND4J　dictionaryでMavenに以下のコマンドを入力してください。
-
-    mvn clean install -DskipTests -Dmaven.javadoc.skip=true
-
-
-# <a id="4-ide-for-java">4. IDE for Java</a>
-
-### IDEとは
-
-[IDE](http://encyclopedia.thefreedictionary.com/integrated+development+environment)とは、ソフトウェアの開発において用いられるエディタ、コンパイラ、リンカ、デバッガ、その他の支援ツールなどを統合・統一化した開発環境のことを指します。IDEには、ソフトウェア開発に必要な最低限のツールがすべて含まれているため、これを導入することで、インストールしたMaveとGitHubの操作を統一して行うことができます。 
-### なぜIDEが必要か
-
-IDSを活用することで、コードを入力するだけで簡単にシステムをセットアップができるようになります。IDEは一般的にMavenとセットで使われるため、Mavenのダウンロードをおすすめしております。
+### なぜ必要か
+ GitHubはこのシステムを使う上で必ずしも必要なものではありません。しかし、ND4Jファイルのダウンロードやプロジェクトの状況、バグの報告をチームメンバー間で共有する際には、GitHubが役立ちます。
 
 ### イントール状況の確認
-
-インストールプログラムをご確認ください。
+ インストールプログラムにて、ご確認いただけます。
 
 ### インストール方法
+ 以下のURLを通じて無料でダウンロードいただけます。
+ 
+[Macはこちら](https://mac.github.com/), [Windowsはこちら](https://windows.github.com/)
 
-[intellij](https://www.jetbrains.com/idea/download/)のfree community editionをお勧めいたします。
+ND4Jのファイルを複製するためには以下の文章をterminal (Mac) もしくは Git Shell (Windows)へ入力してください。
 
-以下のIDEも同様にご活用いただけます。
-
-[Eclipse](http://books.sonatype.com/m2eclipse-book/reference/creating-sect-importing-projects.html) or [Netbeans](http://wiki.netbeans.org/MavenBestPractices).
-
-インストール後、以下のサイトからND4Jプロジェクトをダウンロードいただけます。
-
-[Intellijの場合](http://stackoverflow.com/questions/1051640/correct-way-to-add-lib-jar-to-an-intellij-idea-project)、
-[Eclipseの場合](http://stackoverflow.com/questions/3280353/how-to-import-a-jar-in-eclipse) 、 [Netbeansの場合](http://gpraveenkumar.wordpress.com/2009/06/17/abc-to-import-a-jar-file-in-netbeans-6-5/)
-
+      git clone https://github.com/SkymindIO/nd4j
+      
 # Next Steps
 
  これで[当社ホームページ](../elementwise.html)にあるプロジェクトを実行する準備が整いました。ダウンロードいただいたIDE上で、いずれか一つのプロジェクトをクリックし、(Run)ボタンを押すことで実行できます。すべてが正しくダウンロードされていた場合、画面に数字が表示され、アウトプットを確認することができます。
