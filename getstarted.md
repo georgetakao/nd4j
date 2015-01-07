@@ -88,6 +88,14 @@ IntelliJのWindowを通じて、下に表示されている画面が表示され
 
 ![Alt text](../img/maven2.png) 
 
+ "Next"を押していただくと、次のウィンドウが表示されますので、"ND4J"と名前を入力してください。
+ これでIntelliJのpom.xml fileにアクセスできるようになります。表示内容は以下のようになります。
+ 
+ ![Alt text](../img/nd4j_pom_before.png) 
+ 
+ 
+
+
 
 *"Unix-based Operating Systems (Linux, Solaris and Mac OS X)."* 
 
