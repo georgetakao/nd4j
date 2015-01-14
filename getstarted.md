@@ -102,7 +102,7 @@ IntelliJのWindowを通じて、下に表示されている画面が表示され
  ![Alt text](../img/nd4j_pom_before.png) 
  
  
- 次に<dependencies>セクションにdepemdencyを加えていく必要があります。これはCPUsやGPUsによって異なりますので、それぞれに適応する形で"nd4j-api"と a linear-algebra backend like "nd4j-jblas" か"nd4j-jcublas"を選択してください。これらはすべて <a href="http://search.maven.org/#search%7Cga%7C1%7Cnd4j-jblas">こちら</a>から取得できます。 "latest version" を選択し、コピーを行ってください。
+ 次に<dependencies>セクションにdepemdencyを加えていく必要があります。これはCPUsやGPUsによって異なりますので、それぞれに適応する形で"nd4j-api"と"nd4j-jblas"か"nd4j-jcublas"を選択してください。これらはすべて<ahref="http://search.maven.org/#search%7Cga%7C1%7Cnd4j-jblas">こちら</a>から取得できます。 "latest version" を選択し、コピーを行ってください。
  
  ![Alt text](../img/nd4j_maven.png)
  
