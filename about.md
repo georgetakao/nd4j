@@ -1,18 +1,18 @@
 ---
 layout: page
-title: "About"
+title: "ND4Jとは"
 description: ""
 ---
 {% include JB/setup %}
 
-ND4J is an open-source, distributed deep-learning project in Java spearheaded by the people at [Skymind](http://www.skymind.io/contact.html), a San Francisco-based business intelligence and enterprise software firm. We're a team of data scientists, deep-learning specialists, Java programmers and semi-sentient robots.
+ND4jは[Skymind](http://www.skymind.io/contact.html)によって運営される、deep-learning技術を同時に多くのデバイスで活用することができる、Java環境のオープンソースプラットフォームです。Skymindはサンフランシスコをベースに設立された、ビジネスインテリジェンスおよびエンタープライズソフトウェア会社です。私たちはデータ科学者、deep-learningのスペシャリスト、Javaのプログラマー、そしてロボットの専門家をチームメンバーとしております。
 
-Scientific computing helps analysts mine big data for value. We think industry has only begun to understand and monetize its data, which is why we chose to implement scientific computing for the JVM. 
+コンピューターサイエンスは、膨大な量のビックデータの中から価値を探し出すことを助けます。まだ業界全体としては、そのビックデータをその価値を理解し始めたばかりである状況だからこそ、私たちはJVMを使ったコンピューターサイエンスを活用することを選択しました。
 
-ND4J is distributed under an Apache 2.0 License. 
+ND4JはApache 2.0 Licenseの基に、同時に多くのデバイスで活用することができます。
 
-* [ND4J Google Group](https://groups.google.com/forum/#!forum/nd4j)
-* [Github repository](https://github.com/SkymindIO/nd4j/)
+* ND4JのGoogleグループは[コチラ](https://groups.google.com/forum/#!forum/nd4j)
+* Githubのリポジトリは[コチラ](https://github.com/SkymindIO/nd4j/)
 
 <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
