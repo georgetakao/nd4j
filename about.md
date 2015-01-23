@@ -23,7 +23,7 @@ ND4JはApache 2.0 Licenseの基に、同時に多くのデバイスで活用す�
 </style>
 <div id="mc_embed_signup">
 <form action="//skymind.us8.list-manage.com/subscribe/post?u=26a43400cdacd6b98b676f703&amp;id=1f5b16d539" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-	<label for="mce-EMAIL">Join our mailing list to learn more</label>
+	<label for="mce-EMAIL">私たちのメーリングリストに登録することで、さらなる情報を得ることができます。</label>
 	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div style="position: absolute; left: -5000px;"><input type="text" name="b_26a43400cdacd6b98b676f703_1f5b16d539" tabindex="-1" value=""></div>
