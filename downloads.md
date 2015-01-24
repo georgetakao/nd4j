@@ -5,9 +5,9 @@ description: ""
 ---
 {% include JB/setup %}
 
-# Downloads
+# ダウンロード
 
-ND4j lets you switch between three computational backends: one for GPUs and two different native blas bindings. 
+ND4jは lets you switch between three computational backends: one for GPUs and two different native blas bindings. 
 
 In Maven, it's fairly easy to switch between different backends. Without Maven, it may be harder. Here we provide a number of archives that contain all of the jar files required to use ND4J's backends.
 
